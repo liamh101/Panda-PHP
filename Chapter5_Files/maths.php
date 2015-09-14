@@ -7,6 +7,7 @@
  */
 
 
+//."\n" is not gone over in the book.
 echo 3 + 3 ."\n";
 
 echo 4 + 3 * 2 / 1 ."\n";
