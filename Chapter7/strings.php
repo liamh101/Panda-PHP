@@ -25,3 +25,12 @@ var_dump($second);
 $clean = "We love {$value} \n";
 
 var_dump($clean);
+
+//First part of a sentence
+$ammendFirst = 'Pandas are';
+
+//Second part of a sentence
+$ammentSecond = ' awesome';
+
+//Sentenced stitched together
+var_dump($ammendFirst . $ammentSecond);
