@@ -21,3 +21,7 @@ $second = "We love $value \n";
 var_dump($first);
 var_dump($second);
 
+//Cleaner way to output with double quotes
+$clean = "We love {$value} \n";
+
+var_dump($clean);
