@@ -26,6 +26,9 @@ $clean = "We love {$value} \n";
 
 var_dump($clean);
 
+
+//Strings using Concatenation
+
 //First part of a sentence
 $ammendFirst = 'Pandas are';
 
@@ -34,3 +37,13 @@ $ammentSecond = ' awesome';
 
 //Sentenced stitched together
 var_dump($ammendFirst . $ammentSecond);
+
+//First part of sentence (string)
+$aMaths = 'Value of ';
+
+//Second part of sentence (float)
+$aMaths2 = 28.304;
+
+//Stitching both parts of sentence together
+var_dump($aMaths . $aMaths2);
+
